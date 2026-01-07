@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Baja ProFinder",
+    "slug": "baja-profinder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app_icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0A6EBD"
+    },
+    "android": {
+      "package": "com.bajaprofinder.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon_foreground.png",
+        "backgroundColor": "#0A6EBD"
+      }
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
